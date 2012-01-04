@@ -1,0 +1,7 @@
+Source code Copyright (c) 2011 by Fabio Corneti.  All rights reserved.
+This copyright applies only to this software distribution package 
+as a compilation, and does not imply a copyright on any particular 
+file in the package.
+
+All individual files in this compilation are placed in the public domain by
+Fabio Corneti and other contributors.
