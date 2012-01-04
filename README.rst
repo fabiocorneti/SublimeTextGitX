@@ -23,7 +23,7 @@ The advantage of using this method is that Package Control will automatically ke
 Usage
 -----
 
-Open GitX and enable terminal usage by clicking on the GitX menu and then on **Enable Terminal Usage...";
+Open GitX and enable terminal usage by clicking on the GitX menu and then on ``Enable Terminal Usage...``;
 GitX will create an executable named ``gitx`` inside ``/usr/local/bin``.
 
 Open the command palette and execute the ``GitX: Open GitX`` command to open the GIT repository 
