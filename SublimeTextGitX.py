@@ -25,7 +25,7 @@ class GitxOpenCommand(sublime_plugin.WindowCommand, GitXCommand):
             path = os.path.dirname(path)
     
         settings = sublime.load_settings('Base File.sublime-settings')
-        gitx_path = settings.get('gitx_path', None)
+        gitx_path = settings.get('gitx_path', '/usr/local/bin/gitx')
         
         if gitx_path in ['', None]:
             sublime.error_message(__name__ + ': gitx executable path not set')
