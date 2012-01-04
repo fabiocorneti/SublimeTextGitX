@@ -8,7 +8,7 @@ Installing
 
 **Using Git:** Clone the repository in your Sublime Text 2 Packages directory and restart Sublime Text 2:
 
-    git clone git://github.com/fabiocorneti/SublimeTextGitX.git
+    git clone https://github.com/fabiocorneti/SublimeTextGitX
 
 **Using the Package Control plugin:** The easiest way to install SublimeTextGitX is through Package Control, 
 which can be found at http://wbond.net/sublime_packages/package_control .
