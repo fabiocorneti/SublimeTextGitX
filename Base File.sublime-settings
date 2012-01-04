@@ -1,0 +1,7 @@
+/*
+    SublimeTextGitX default settings
+*/
+{
+    // gitx executable path
+    "gitx_path": "/usr/local/bin/gitx"
+}
