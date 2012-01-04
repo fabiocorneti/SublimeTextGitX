@@ -31,6 +31,5 @@ class GitxOpenCommand(sublime_plugin.WindowCommand, GitXCommand):
             sublime.error_message(__name__ + ': gitx executable path not set')
             return False
 
-        sublime.status_message(gitx_path)
         p = subprocess.Popen([gitx_path], cwd=path.encode(locale.getpreferredencoding(do_setlocale=True)), shell=True)
 
