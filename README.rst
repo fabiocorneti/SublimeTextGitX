@@ -46,7 +46,7 @@ v0.1 (01-04-2011):
 
 * Initial version
 
-v0.2 (01-16-2014):
+v0.2.0 (01-16-2014):
 
 * Updated README about ST3 compatibility
 
