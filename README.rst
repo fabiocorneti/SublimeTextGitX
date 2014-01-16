@@ -1,12 +1,12 @@
 SublimeTextGitX
 ===============
 
-Very simple plugin to open GitX (http://gitx.laullon.com/) from Sublime Text 2 (http://www.sublimetext.com/2).
+Very simple plugin to open GitX (http://gitx.laullon.com/) from Sublime Text 2 and 3 (http://www.sublimetext.com/).
 
 Installing
 ----------
 
-**Using Git:** Clone the repository in your Sublime Text 2 Packages directory and restart Sublime Text 2:
+**Using Git:** Clone the repository in your Sublime Text Packages directory and restart Sublime Text:
 
     git clone https://github.com/fabiocorneti/SublimeTextGitX
 
@@ -45,6 +45,10 @@ Changelog
 v0.1 (01-04-2011):
 
 * Initial version
+
+v0.2 (01-16-2014):
+
+* Updated README about ST3 compatibility
 
 License
 -------
