@@ -41,4 +41,8 @@ class GitxOpenCommand(sublime_plugin.WindowCommand, GitXCommand):
         if gitx_path.endswith(".app"):
             subprocess.call(['open', '-a', gitx_path, path])
         else:
-            p = subprocess.Popen([gitx_path], cwd=path.encode(locale.getpreferredencoding(do_setlocale=True)), shell=True)
+            try:
+                encoding = locale.getpreferredencoding(do_setlocale=True) or 'UTF-8'
+                p = subprocess.Popen([gitx_path], cwd=path.encode(encoding), shell=True)
+            except Exception as e:
+                sublime.error_message(__name__ + ' Error launching gitx ' + e.message)
